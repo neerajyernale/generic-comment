@@ -186,8 +186,6 @@ function updatePostCard(updateObj) {
             block: "center"
         });
          snackbar(" comment Updated successfully", "success");
-
-
     form.reset();
 }
 updateBtn.addEventListener('click',onUpdate);
